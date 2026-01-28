@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1751330291789.571,
+    "originalRowIndex": 1,
+    "date": "2025-06-01",
+    "description": "Monthly Rent",
+    "amount": -2790.3,
+    "category": "Monthly Rent",
+    "subcategory": "Rent",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45808.833333333336,
+      "memo": "Monthly Rent",
+      "merchant categ": "Rent",
+      "amount": -2790.3,
+      "remaining": -2790.3
+    },
+    "type": "expense",
+    "absoluteAmount": 2790.3,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2695,
+    "originalRowIndex": 2,
+    "date": "2025-06-02",
+    "description": "Equipment Repair",
+    "amount": -745.31,
+    "category": "Equipment Repair",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45809.833333333336,
+      "memo": "Equipment Repair",
+      "merchant categ": "Maintenance",
+      "amount": -745.31,
+      "remaining": -3535.61
+    },
+    "type": "expense",
+    "absoluteAmount": 745.31,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.557,
+    "originalRowIndex": 3,
+    "date": "2025-06-02",
+    "description": "Local Farmers Market",
+    "amount": -616.67,
+    "category": "Local Farmers Market",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45809.833333333336,
+      "memo": "Local Farmers Market",
+      "merchant categ": "Food Supplies",
+      "amount": -616.67,
+      "remaining": -4152.28
+    },
+    "type": "expense",
+    "absoluteAmount": 616.67,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3977,
+    "originalRowIndex": 4,
+    "date": "2025-06-02",
+    "description": "Business License Fee",
+    "amount": -147.17,
+    "category": "Business License Fee",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45809.833333333336,
+      "memo": "Business License Fee",
+      "merchant categ": "Miscellaneous",
+      "amount": -147.17,
+      "remaining": -4299.45
+    },
+    "type": "expense",
+    "absoluteAmount": 147.17,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0625,
+    "originalRowIndex": 5,
+    "date": "2025-06-02",
+    "description": "Sysco",
+    "amount": -669.4,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45809.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -669.4,
+      "remaining": -4968.85
+    },
+    "type": "expense",
+    "absoluteAmount": 669.4,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.58,
+    "originalRowIndex": 6,
+    "date": "2025-06-03",
+    "description": "Marketing Expense",
+    "amount": -185.67,
+    "category": "Marketing Expense",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45810.833333333336,
+      "memo": "Marketing Expense",
+      "merchant categ": "Miscellaneous",
+      "amount": -185.67,
+      "remaining": -5154.52
+    },
+    "type": "expense",
+    "absoluteAmount": 185.67,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0537,
+    "originalRowIndex": 7,
+    "date": "2025-06-03",
+    "description": "Local Farmers Market",
+    "amount": -332.21,
+    "category": "Local Farmers Market",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45810.833333333336,
+      "memo": "Local Farmers Market",
+      "merchant categ": "Food Supplies",
+      "amount": -332.21,
+      "remaining": -5486.73
+    },
+    "type": "expense",
+    "absoluteAmount": 332.21,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.1655,
+    "originalRowIndex": 8,
+    "date": "2025-06-03",
+    "description": "Sysco",
+    "amount": -817.8,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45810.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -817.8,
+      "remaining": -6304.53
+    },
+    "type": "expense",
+    "absoluteAmount": 817.8,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2166,
+    "originalRowIndex": 9,
+    "date": "2025-06-04",
+    "description": "Restaurant Depot",
+    "amount": -211.26,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45811.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -211.26,
+      "remaining": -6515.79
+    },
+    "type": "expense",
+    "absoluteAmount": 211.26,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.4744,
+    "originalRowIndex": 10,
+    "date": "2025-06-04",
+    "description": "Restaurant Depot",
+    "amount": -783.21,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45811.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -783.21,
+      "remaining": -7299
+    },
+    "type": "expense",
+    "absoluteAmount": 783.21,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6885,
+    "originalRowIndex": 11,
+    "date": "2025-06-04",
+    "description": "Employee Payroll",
+    "amount": -2374.71,
+    "category": "Employee Payroll",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45811.833333333336,
+      "memo": "Employee Payroll",
+      "merchant categ": "Payroll",
+      "amount": -2374.71,
+      "remaining": -9673.71
+    },
+    "type": "expense",
+    "absoluteAmount": 2374.71,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2524,
+    "originalRowIndex": 12,
+    "date": "2025-06-04",
+    "description": "In-store Cash Sale",
+    "amount": 432.52,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45811.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 432.52,
+      "remaining": -9241.19
+    },
+    "type": "income",
+    "absoluteAmount": 432.52,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.951,
+    "originalRowIndex": 13,
+    "date": "2025-06-04",
+    "description": "Monthly Rent",
+    "amount": -2190.82,
+    "category": "Monthly Rent",
+    "subcategory": "Rent",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45811.833333333336,
+      "memo": "Monthly Rent",
+      "merchant categ": "Rent",
+      "amount": -2190.82,
+      "remaining": -11432.01
+    },
+    "type": "expense",
+    "absoluteAmount": 2190.82,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.9277,
+    "originalRowIndex": 14,
+    "date": "2025-06-05",
+    "description": "Gas Bill",
+    "amount": -197.55,
+    "category": "Gas Bill",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45812.833333333336,
+      "memo": "Gas Bill",
+      "merchant categ": "Utilities",
+      "amount": -197.55,
+      "remaining": -11629.56
+    },
+    "type": "expense",
+    "absoluteAmount": 197.55,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.5225,
+    "originalRowIndex": 15,
+    "date": "2025-06-06",
+    "description": "Online Order - UberEats",
+    "amount": 449.25,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45813.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 449.25,
+      "remaining": -11180.31
+    },
+    "type": "income",
+    "absoluteAmount": 449.25,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3794,
+    "originalRowIndex": 16,
+    "date": "2025-06-06",
+    "description": "Square POS Payment",
+    "amount": 487.27,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45813.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 487.27,
+      "remaining": -10693.04
+    },
+    "type": "income",
+    "absoluteAmount": 487.27,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.492,
+    "originalRowIndex": 17,
+    "date": "2025-06-07",
+    "description": "Employee Payroll",
+    "amount": -1754.17,
+    "category": "Employee Payroll",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45814.833333333336,
+      "memo": "Employee Payroll",
+      "merchant categ": "Payroll",
+      "amount": -1754.17,
+      "remaining": -12447.21
+    },
+    "type": "expense",
+    "absoluteAmount": 1754.17,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2732,
+    "originalRowIndex": 18,
+    "date": "2025-06-07",
+    "description": "Employee Payroll",
+    "amount": -868.74,
+    "category": "Employee Payroll",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45814.833333333336,
+      "memo": "Employee Payroll",
+      "merchant categ": "Payroll",
+      "amount": -868.74,
+      "remaining": -13315.95
+    },
+    "type": "expense",
+    "absoluteAmount": 868.74,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0784,
+    "originalRowIndex": 19,
+    "date": "2025-06-07",
+    "description": "Online Order - UberEats",
+    "amount": 61.44,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45814.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 61.44,
+      "remaining": -13254.51
+    },
+    "type": "income",
+    "absoluteAmount": 61.44,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3271,
+    "originalRowIndex": 20,
+    "date": "2025-06-07",
+    "description": "Local Farmers Market",
+    "amount": -916.61,
+    "category": "Local Farmers Market",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45814.833333333336,
+      "memo": "Local Farmers Market",
+      "merchant categ": "Food Supplies",
+      "amount": -916.61,
+      "remaining": -14171.12
+    },
+    "type": "expense",
+    "absoluteAmount": 916.61,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.947,
+    "originalRowIndex": 21,
+    "date": "2025-06-07",
+    "description": "Square POS Payment",
+    "amount": 278.86,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45814.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 278.86,
+      "remaining": -13892.26
+    },
+    "type": "income",
+    "absoluteAmount": 278.86,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.5715,
+    "originalRowIndex": 22,
+    "date": "2025-06-08",
+    "description": "Equipment Repair",
+    "amount": -523.09,
+    "category": "Equipment Repair",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45815.833333333336,
+      "memo": "Equipment Repair",
+      "merchant categ": "Maintenance",
+      "amount": -523.09,
+      "remaining": -14415.35
+    },
+    "type": "expense",
+    "absoluteAmount": 523.09,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.4536,
+    "originalRowIndex": 23,
+    "date": "2025-06-08",
+    "description": "Square POS Payment",
+    "amount": 152.96,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45815.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 152.96,
+      "remaining": -14262.39
+    },
+    "type": "income",
+    "absoluteAmount": 152.96,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.7292,
+    "originalRowIndex": 24,
+    "date": "2025-06-08",
+    "description": "Local Farmers Market",
+    "amount": -755.83,
+    "category": "Local Farmers Market",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45815.833333333336,
+      "memo": "Local Farmers Market",
+      "merchant categ": "Food Supplies",
+      "amount": -755.83,
+      "remaining": -15018.22
+    },
+    "type": "expense",
+    "absoluteAmount": 755.83,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.7578,
+    "originalRowIndex": 25,
+    "date": "2025-06-08",
+    "description": "Cleaning Service",
+    "amount": -665.68,
+    "category": "Cleaning Service",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45815.833333333336,
+      "memo": "Cleaning Service",
+      "merchant categ": "Maintenance",
+      "amount": -665.68,
+      "remaining": -15683.9
+    },
+    "type": "expense",
+    "absoluteAmount": 665.68,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.1196,
+    "originalRowIndex": 26,
+    "date": "2025-06-09",
+    "description": "Online Order - UberEats",
+    "amount": 255.44,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45816.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 255.44,
+      "remaining": -15428.46
+    },
+    "type": "income",
+    "absoluteAmount": 255.44,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.605,
+    "originalRowIndex": 27,
+    "date": "2025-06-09",
+    "description": "Restaurant Depot",
+    "amount": -914.05,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45816.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -914.05,
+      "remaining": -16342.51
+    },
+    "type": "expense",
+    "absoluteAmount": 914.05,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.224,
+    "originalRowIndex": 28,
+    "date": "2025-06-10",
+    "description": "Online Order - UberEats",
+    "amount": 104.94,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45817.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 104.94,
+      "remaining": -16237.57
+    },
+    "type": "income",
+    "absoluteAmount": 104.94,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.624,
+    "originalRowIndex": 29,
+    "date": "2025-06-10",
+    "description": "Gas Bill",
+    "amount": -133.02,
+    "category": "Gas Bill",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45817.833333333336,
+      "memo": "Gas Bill",
+      "merchant categ": "Utilities",
+      "amount": -133.02,
+      "remaining": -16370.59
+    },
+    "type": "expense",
+    "absoluteAmount": 133.02,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.9631,
+    "originalRowIndex": 30,
+    "date": "2025-06-11",
+    "description": "US Foods",
+    "amount": -200.42,
+    "category": "US Foods",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45818.833333333336,
+      "memo": "US Foods",
+      "merchant categ": "Food Supplies",
+      "amount": -200.42,
+      "remaining": -16571.01
+    },
+    "type": "expense",
+    "absoluteAmount": 200.42,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6006,
+    "originalRowIndex": 31,
+    "date": "2025-06-11",
+    "description": "Water Utility",
+    "amount": -102.09,
+    "category": "Water Utility",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45818.833333333336,
+      "memo": "Water Utility",
+      "merchant categ": "Utilities",
+      "amount": -102.09,
+      "remaining": -16673.1
+    },
+    "type": "expense",
+    "absoluteAmount": 102.09,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6035,
+    "originalRowIndex": 32,
+    "date": "2025-06-11",
+    "description": "Square POS Payment",
+    "amount": 268.17,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45818.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 268.17,
+      "remaining": -16404.93
+    },
+    "type": "income",
+    "absoluteAmount": 268.17,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.4812,
+    "originalRowIndex": 33,
+    "date": "2025-06-12",
+    "description": "Online Order - UberEats",
+    "amount": 201.93,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45819.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 201.93,
+      "remaining": -16203
+    },
+    "type": "income",
+    "absoluteAmount": 201.93,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3704,
+    "originalRowIndex": 34,
+    "date": "2025-06-12",
+    "description": "Cleaning Service",
+    "amount": -253.13,
+    "category": "Cleaning Service",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45819.833333333336,
+      "memo": "Cleaning Service",
+      "merchant categ": "Maintenance",
+      "amount": -253.13,
+      "remaining": -16456.13
+    },
+    "type": "expense",
+    "absoluteAmount": 253.13,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.4258,
+    "originalRowIndex": 35,
+    "date": "2025-06-12",
+    "description": "Square POS Payment",
+    "amount": 79.2,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45819.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 79.2,
+      "remaining": -16376.93
+    },
+    "type": "income",
+    "absoluteAmount": 79.2,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.46,
+    "originalRowIndex": 36,
+    "date": "2025-06-12",
+    "description": "Restaurant Depot",
+    "amount": -401.43,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45819.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -401.43,
+      "remaining": -16778.36
+    },
+    "type": "expense",
+    "absoluteAmount": 401.43,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2263,
+    "originalRowIndex": 37,
+    "date": "2025-06-12",
+    "description": "Square POS Payment",
+    "amount": 116.64,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45819.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 116.64,
+      "remaining": -16661.72
+    },
+    "type": "income",
+    "absoluteAmount": 116.64,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0657,
+    "originalRowIndex": 38,
+    "date": "2025-06-14",
+    "description": "Business License Fee",
+    "amount": -202.39,
+    "category": "Business License Fee",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45821.833333333336,
+      "memo": "Business License Fee",
+      "merchant categ": "Miscellaneous",
+      "amount": -202.39,
+      "remaining": -16864.11
+    },
+    "type": "expense",
+    "absoluteAmount": 202.39,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6897,
+    "originalRowIndex": 39,
+    "date": "2025-06-14",
+    "description": "Online Order - UberEats",
+    "amount": 64.87,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45821.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 64.87,
+      "remaining": -16799.24
+    },
+    "type": "income",
+    "absoluteAmount": 64.87,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.728,
+    "originalRowIndex": 40,
+    "date": "2025-06-15",
+    "description": "Electric Bill",
+    "amount": -171.87,
+    "category": "Electric Bill",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45822.833333333336,
+      "memo": "Electric Bill",
+      "merchant categ": "Utilities",
+      "amount": -171.87,
+      "remaining": -16971.11
+    },
+    "type": "expense",
+    "absoluteAmount": 171.87,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.5054,
+    "originalRowIndex": 41,
+    "date": "2025-06-15",
+    "description": "Restaurant Depot",
+    "amount": -558.23,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45822.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -558.23,
+      "remaining": -17529.34
+    },
+    "type": "expense",
+    "absoluteAmount": 558.23,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3071,
+    "originalRowIndex": 42,
+    "date": "2025-06-15",
+    "description": "In-store Cash Sale",
+    "amount": 352.46,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45822.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 352.46,
+      "remaining": -17176.88
+    },
+    "type": "income",
+    "absoluteAmount": 352.46,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6565,
+    "originalRowIndex": 43,
+    "date": "2025-06-15",
+    "description": "Employee Payroll",
+    "amount": -1211.67,
+    "category": "Employee Payroll",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45822.833333333336,
+      "memo": "Employee Payroll",
+      "merchant categ": "Payroll",
+      "amount": -1211.67,
+      "remaining": -18388.55
+    },
+    "type": "expense",
+    "absoluteAmount": 1211.67,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.105,
+    "originalRowIndex": 44,
+    "date": "2025-06-15",
+    "description": "Employee Payroll",
+    "amount": -1874.92,
+    "category": "Employee Payroll",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45822.833333333336,
+      "memo": "Employee Payroll",
+      "merchant categ": "Payroll",
+      "amount": -1874.92,
+      "remaining": -20263.47
+    },
+    "type": "expense",
+    "absoluteAmount": 1874.92,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.811,
+    "originalRowIndex": 45,
+    "date": "2025-06-16",
+    "description": "In-store Cash Sale",
+    "amount": 417.39,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45823.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 417.39,
+      "remaining": -19846.08
+    },
+    "type": "income",
+    "absoluteAmount": 417.39,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.1711,
+    "originalRowIndex": 46,
+    "date": "2025-06-17",
+    "description": "Employee Payroll",
+    "amount": -1345.33,
+    "category": "Employee Payroll",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45824.833333333336,
+      "memo": "Employee Payroll",
+      "merchant categ": "Payroll",
+      "amount": -1345.33,
+      "remaining": -21191.41
+    },
+    "type": "expense",
+    "absoluteAmount": 1345.33,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8452,
+    "originalRowIndex": 47,
+    "date": "2025-06-17",
+    "description": "Sysco",
+    "amount": -886.69,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45824.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -886.69,
+      "remaining": -22078.1
+    },
+    "type": "expense",
+    "absoluteAmount": 886.69,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.1755,
+    "originalRowIndex": 48,
+    "date": "2025-06-18",
+    "description": "Water Utility",
+    "amount": -313.34,
+    "category": "Water Utility",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45825.833333333336,
+      "memo": "Water Utility",
+      "merchant categ": "Utilities",
+      "amount": -313.34,
+      "remaining": -22391.44
+    },
+    "type": "expense",
+    "absoluteAmount": 313.34,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6636,
+    "originalRowIndex": 49,
+    "date": "2025-06-18",
+    "description": "Manager Salary",
+    "amount": -1896.79,
+    "category": "Manager Salary",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45825.833333333336,
+      "memo": "Manager Salary",
+      "merchant categ": "Payroll",
+      "amount": -1896.79,
+      "remaining": -24288.23
+    },
+    "type": "expense",
+    "absoluteAmount": 1896.79,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3247,
+    "originalRowIndex": 50,
+    "date": "2025-06-18",
+    "description": "Sysco",
+    "amount": -518.06,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45825.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -518.06,
+      "remaining": -24806.29
+    },
+    "type": "expense",
+    "absoluteAmount": 518.06,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6665,
+    "originalRowIndex": 51,
+    "date": "2025-06-18",
+    "description": "Square POS Payment",
+    "amount": 354.06,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45825.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 354.06,
+      "remaining": -24452.23
+    },
+    "type": "income",
+    "absoluteAmount": 354.06,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6584,
+    "originalRowIndex": 52,
+    "date": "2025-06-19",
+    "description": "Online Order - UberEats",
+    "amount": 466.11,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45826.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 466.11,
+      "remaining": -23986.12
+    },
+    "type": "income",
+    "absoluteAmount": 466.11,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3743,
+    "originalRowIndex": 53,
+    "date": "2025-06-19",
+    "description": "Equipment Repair",
+    "amount": -259.99,
+    "category": "Equipment Repair",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45826.833333333336,
+      "memo": "Equipment Repair",
+      "merchant categ": "Maintenance",
+      "amount": -259.99,
+      "remaining": -24246.11
+    },
+    "type": "expense",
+    "absoluteAmount": 259.99,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8276,
+    "originalRowIndex": 54,
+    "date": "2025-06-19",
+    "description": "Restaurant Depot",
+    "amount": -644.16,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45826.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -644.16,
+      "remaining": -24890.27
+    },
+    "type": "expense",
+    "absoluteAmount": 644.16,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.7197,
+    "originalRowIndex": 55,
+    "date": "2025-06-20",
+    "description": "Online Order - UberEats",
+    "amount": 498.31,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45827.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 498.31,
+      "remaining": -24391.96
+    },
+    "type": "income",
+    "absoluteAmount": 498.31,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6733,
+    "originalRowIndex": 56,
+    "date": "2025-06-20",
+    "description": "Business License Fee",
+    "amount": -275.1,
+    "category": "Business License Fee",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45827.833333333336,
+      "memo": "Business License Fee",
+      "merchant categ": "Miscellaneous",
+      "amount": -275.1,
+      "remaining": -24667.06
+    },
+    "type": "expense",
+    "absoluteAmount": 275.1,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6636,
+    "originalRowIndex": 57,
+    "date": "2025-06-20",
+    "description": "Square POS Payment",
+    "amount": 175.49,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45827.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 175.49,
+      "remaining": -24491.57
+    },
+    "type": "income",
+    "absoluteAmount": 175.49,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2683,
+    "originalRowIndex": 58,
+    "date": "2025-06-21",
+    "description": "In-store Cash Sale",
+    "amount": 435.35,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45828.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 435.35,
+      "remaining": -24056.22
+    },
+    "type": "income",
+    "absoluteAmount": 435.35,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.9263,
+    "originalRowIndex": 59,
+    "date": "2025-06-21",
+    "description": "Monthly Rent",
+    "amount": -3775.54,
+    "category": "Monthly Rent",
+    "subcategory": "Rent",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45828.833333333336,
+      "memo": "Monthly Rent",
+      "merchant categ": "Rent",
+      "amount": -3775.54,
+      "remaining": -27831.76
+    },
+    "type": "expense",
+    "absoluteAmount": 3775.54,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.862,
+    "originalRowIndex": 60,
+    "date": "2025-06-21",
+    "description": "Equipment Repair",
+    "amount": -213.14,
+    "category": "Equipment Repair",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45828.833333333336,
+      "memo": "Equipment Repair",
+      "merchant categ": "Maintenance",
+      "amount": -213.14,
+      "remaining": -28044.9
+    },
+    "type": "expense",
+    "absoluteAmount": 213.14,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2124,
+    "originalRowIndex": 61,
+    "date": "2025-06-21",
+    "description": "Cleaning Service",
+    "amount": -506.48,
+    "category": "Cleaning Service",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45828.833333333336,
+      "memo": "Cleaning Service",
+      "merchant categ": "Maintenance",
+      "amount": -506.48,
+      "remaining": -28551.38
+    },
+    "type": "expense",
+    "absoluteAmount": 506.48,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.1082,
+    "originalRowIndex": 62,
+    "date": "2025-06-21",
+    "description": "Electric Bill",
+    "amount": -299.05,
+    "category": "Electric Bill",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45828.833333333336,
+      "memo": "Electric Bill",
+      "merchant categ": "Utilities",
+      "amount": -299.05,
+      "remaining": -28850.43
+    },
+    "type": "expense",
+    "absoluteAmount": 299.05,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.375,
+    "originalRowIndex": 63,
+    "date": "2025-06-21",
+    "description": "Restaurant Depot",
+    "amount": -444.29,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45828.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -444.29,
+      "remaining": -29294.72
+    },
+    "type": "expense",
+    "absoluteAmount": 444.29,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6313,
+    "originalRowIndex": 64,
+    "date": "2025-06-22",
+    "description": "In-store Cash Sale",
+    "amount": 343.38,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45829.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 343.38,
+      "remaining": -28951.34
+    },
+    "type": "income",
+    "absoluteAmount": 343.38,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.4492,
+    "originalRowIndex": 65,
+    "date": "2025-06-22",
+    "description": "Sysco",
+    "amount": -214.46,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45829.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -214.46,
+      "remaining": -29165.8
+    },
+    "type": "expense",
+    "absoluteAmount": 214.46,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8816,
+    "originalRowIndex": 66,
+    "date": "2025-06-22",
+    "description": "In-store Cash Sale",
+    "amount": 374.42,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45829.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 374.42,
+      "remaining": -28791.38
+    },
+    "type": "income",
+    "absoluteAmount": 374.42,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.1702,
+    "originalRowIndex": 67,
+    "date": "2025-06-22",
+    "description": "Water Utility",
+    "amount": -210.31,
+    "category": "Water Utility",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45829.833333333336,
+      "memo": "Water Utility",
+      "merchant categ": "Utilities",
+      "amount": -210.31,
+      "remaining": -29001.69
+    },
+    "type": "expense",
+    "absoluteAmount": 210.31,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.7212,
+    "originalRowIndex": 68,
+    "date": "2025-06-23",
+    "description": "US Foods",
+    "amount": -671.9,
+    "category": "US Foods",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45830.833333333336,
+      "memo": "US Foods",
+      "merchant categ": "Food Supplies",
+      "amount": -671.9,
+      "remaining": -29673.59
+    },
+    "type": "expense",
+    "absoluteAmount": 671.9,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8748,
+    "originalRowIndex": 69,
+    "date": "2025-06-23",
+    "description": "Business License Fee",
+    "amount": -273.01,
+    "category": "Business License Fee",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45830.833333333336,
+      "memo": "Business License Fee",
+      "merchant categ": "Miscellaneous",
+      "amount": -273.01,
+      "remaining": -29946.6
+    },
+    "type": "expense",
+    "absoluteAmount": 273.01,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.825,
+    "originalRowIndex": 70,
+    "date": "2025-06-24",
+    "description": "Online Order - UberEats",
+    "amount": 207.54,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45831.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 207.54,
+      "remaining": -29739.06
+    },
+    "type": "income",
+    "absoluteAmount": 207.54,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.617,
+    "originalRowIndex": 71,
+    "date": "2025-06-24",
+    "description": "In-store Cash Sale",
+    "amount": 271.63,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45831.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 271.63,
+      "remaining": -29467.43
+    },
+    "type": "income",
+    "absoluteAmount": 271.63,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.9531,
+    "originalRowIndex": 72,
+    "date": "2025-06-24",
+    "description": "Sysco",
+    "amount": -599.35,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45831.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -599.35,
+      "remaining": -30066.78
+    },
+    "type": "expense",
+    "absoluteAmount": 599.35,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3958,
+    "originalRowIndex": 73,
+    "date": "2025-06-25",
+    "description": "Square POS Payment",
+    "amount": 69.62,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45832.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 69.62,
+      "remaining": -29997.16
+    },
+    "type": "income",
+    "absoluteAmount": 69.62,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.487,
+    "originalRowIndex": 74,
+    "date": "2025-06-25",
+    "description": "Marketing Expense",
+    "amount": -288.48,
+    "category": "Marketing Expense",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45832.833333333336,
+      "memo": "Marketing Expense",
+      "merchant categ": "Miscellaneous",
+      "amount": -288.48,
+      "remaining": -30285.64
+    },
+    "type": "expense",
+    "absoluteAmount": 288.48,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.4404,
+    "originalRowIndex": 75,
+    "date": "2025-06-25",
+    "description": "Equipment Repair",
+    "amount": -623.4,
+    "category": "Equipment Repair",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45832.833333333336,
+      "memo": "Equipment Repair",
+      "merchant categ": "Maintenance",
+      "amount": -623.4,
+      "remaining": -30909.04
+    },
+    "type": "expense",
+    "absoluteAmount": 623.4,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8657,
+    "originalRowIndex": 76,
+    "date": "2025-06-26",
+    "description": "Business License Fee",
+    "amount": -157.05,
+    "category": "Business License Fee",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45833.833333333336,
+      "memo": "Business License Fee",
+      "merchant categ": "Miscellaneous",
+      "amount": -157.05,
+      "remaining": -31066.09
+    },
+    "type": "expense",
+    "absoluteAmount": 157.05,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.9077,
+    "originalRowIndex": 77,
+    "date": "2025-06-26",
+    "description": "Business License Fee",
+    "amount": -295.08,
+    "category": "Business License Fee",
+    "subcategory": "Miscellaneous",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45833.833333333336,
+      "memo": "Business License Fee",
+      "merchant categ": "Miscellaneous",
+      "amount": -295.08,
+      "remaining": -31361.17
+    },
+    "type": "expense",
+    "absoluteAmount": 295.08,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.41,
+    "originalRowIndex": 78,
+    "date": "2025-06-26",
+    "description": "Sysco",
+    "amount": -508.08,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45833.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -508.08,
+      "remaining": -31869.25
+    },
+    "type": "expense",
+    "absoluteAmount": 508.08,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.2178,
+    "originalRowIndex": 79,
+    "date": "2025-06-26",
+    "description": "Cleaning Service",
+    "amount": -439.7,
+    "category": "Cleaning Service",
+    "subcategory": "Maintenance",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45833.833333333336,
+      "memo": "Cleaning Service",
+      "merchant categ": "Maintenance",
+      "amount": -439.7,
+      "remaining": -32308.95
+    },
+    "type": "expense",
+    "absoluteAmount": 439.7,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.9712,
+    "originalRowIndex": 80,
+    "date": "2025-06-26",
+    "description": "Gas Bill",
+    "amount": -380.85,
+    "category": "Gas Bill",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45833.833333333336,
+      "memo": "Gas Bill",
+      "merchant categ": "Utilities",
+      "amount": -380.85,
+      "remaining": -32689.8
+    },
+    "type": "expense",
+    "absoluteAmount": 380.85,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8972,
+    "originalRowIndex": 81,
+    "date": "2025-06-27",
+    "description": "Online Order - UberEats",
+    "amount": 93.73,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45834.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 93.73,
+      "remaining": -32596.07
+    },
+    "type": "income",
+    "absoluteAmount": 93.73,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6392,
+    "originalRowIndex": 82,
+    "date": "2025-06-27",
+    "description": "Online Order - UberEats",
+    "amount": 211.39,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45834.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 211.39,
+      "remaining": -32384.68
+    },
+    "type": "income",
+    "absoluteAmount": 211.39,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3748,
+    "originalRowIndex": 83,
+    "date": "2025-06-28",
+    "description": "US Foods",
+    "amount": -901.9,
+    "category": "US Foods",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45835.833333333336,
+      "memo": "US Foods",
+      "merchant categ": "Food Supplies",
+      "amount": -901.9,
+      "remaining": -33286.58
+    },
+    "type": "expense",
+    "absoluteAmount": 901.9,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.074,
+    "originalRowIndex": 84,
+    "date": "2025-06-28",
+    "description": "Square POS Payment",
+    "amount": 111.48,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45835.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 111.48,
+      "remaining": -33175.1
+    },
+    "type": "income",
+    "absoluteAmount": 111.48,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.091,
+    "originalRowIndex": 85,
+    "date": "2025-06-28",
+    "description": "In-store Cash Sale",
+    "amount": 182.12,
+    "category": "In-store Cash Sale",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45835.833333333336,
+      "memo": "In-store Cash Sale",
+      "merchant categ": "Sales",
+      "amount": 182.12,
+      "remaining": -32992.98
+    },
+    "type": "income",
+    "absoluteAmount": 182.12,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.5974,
+    "originalRowIndex": 86,
+    "date": "2025-06-28",
+    "description": "Employee Payroll",
+    "amount": -1235.55,
+    "category": "Employee Payroll",
+    "subcategory": "Payroll",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45835.833333333336,
+      "memo": "Employee Payroll",
+      "merchant categ": "Payroll",
+      "amount": -1235.55,
+      "remaining": -34228.53
+    },
+    "type": "expense",
+    "absoluteAmount": 1235.55,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.7473,
+    "originalRowIndex": 87,
+    "date": "2025-06-28",
+    "description": "Online Order - UberEats",
+    "amount": 52.33,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45835.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 52.33,
+      "remaining": -34176.2
+    },
+    "type": "income",
+    "absoluteAmount": 52.33,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.428,
+    "originalRowIndex": 88,
+    "date": "2025-06-28",
+    "description": "Square POS Payment",
+    "amount": 81.92,
+    "category": "Square POS Payment",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45835.833333333336,
+      "memo": "Square POS Payment",
+      "merchant categ": "Sales",
+      "amount": 81.92,
+      "remaining": -34094.28
+    },
+    "type": "income",
+    "absoluteAmount": 81.92,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0269,
+    "originalRowIndex": 89,
+    "date": "2025-06-29",
+    "description": "Gas Bill",
+    "amount": -367,
+    "category": "Gas Bill",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45836.833333333336,
+      "memo": "Gas Bill",
+      "merchant categ": "Utilities",
+      "amount": -367,
+      "remaining": -34461.28
+    },
+    "type": "expense",
+    "absoluteAmount": 367,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3186,
+    "originalRowIndex": 90,
+    "date": "2025-06-29",
+    "description": "Gas Bill",
+    "amount": -128.19,
+    "category": "Gas Bill",
+    "subcategory": "Utilities",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45836.833333333336,
+      "memo": "Gas Bill",
+      "merchant categ": "Utilities",
+      "amount": -128.19,
+      "remaining": -34589.47
+    },
+    "type": "expense",
+    "absoluteAmount": 128.19,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8345,
+    "originalRowIndex": 91,
+    "date": "2025-06-29",
+    "description": "Online Order - UberEats",
+    "amount": 197.67,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45836.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 197.67,
+      "remaining": -34391.8
+    },
+    "type": "income",
+    "absoluteAmount": 197.67,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.3828,
+    "originalRowIndex": 92,
+    "date": "2025-06-29",
+    "description": "US Foods",
+    "amount": -429.23,
+    "category": "US Foods",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45836.833333333336,
+      "memo": "US Foods",
+      "merchant categ": "Food Supplies",
+      "amount": -429.23,
+      "remaining": -34821.03
+    },
+    "type": "expense",
+    "absoluteAmount": 429.23,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.7544,
+    "originalRowIndex": 93,
+    "date": "2025-06-29",
+    "description": "Online Order - UberEats",
+    "amount": 162.61,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45836.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 162.61,
+      "remaining": -34658.42
+    },
+    "type": "income",
+    "absoluteAmount": 162.61,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.145,
+    "originalRowIndex": 94,
+    "date": "2025-06-30",
+    "description": "Local Farmers Market",
+    "amount": -488.15,
+    "category": "Local Farmers Market",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45837.833333333336,
+      "memo": "Local Farmers Market",
+      "merchant categ": "Food Supplies",
+      "amount": -488.15,
+      "remaining": -35146.57
+    },
+    "type": "expense",
+    "absoluteAmount": 488.15,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.9756,
+    "originalRowIndex": 95,
+    "date": "2025-06-30",
+    "description": "Sysco",
+    "amount": -862.3,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45837.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -862.3,
+      "remaining": -36008.87
+    },
+    "type": "expense",
+    "absoluteAmount": 862.3,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.8645,
+    "originalRowIndex": 96,
+    "date": "2025-06-30",
+    "description": "Restaurant Depot",
+    "amount": -698.31,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45837.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -698.31,
+      "remaining": -36707.18
+    },
+    "type": "expense",
+    "absoluteAmount": 698.31,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0146,
+    "originalRowIndex": 97,
+    "date": "2025-06-30",
+    "description": "Sysco",
+    "amount": -355.5,
+    "category": "Sysco",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45837.833333333336,
+      "memo": "Sysco",
+      "merchant categ": "Food Supplies",
+      "amount": -355.5,
+      "remaining": -37062.68
+    },
+    "type": "expense",
+    "absoluteAmount": 355.5,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0388,
+    "originalRowIndex": 98,
+    "date": "2025-06-30",
+    "description": "Monthly Rent",
+    "amount": -3399.02,
+    "category": "Monthly Rent",
+    "subcategory": "Rent",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45837.833333333336,
+      "memo": "Monthly Rent",
+      "merchant categ": "Rent",
+      "amount": -3399.02,
+      "remaining": -40461.7
+    },
+    "type": "expense",
+    "absoluteAmount": 3399.02,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.0774,
+    "originalRowIndex": 99,
+    "date": "2025-07-01",
+    "description": "Restaurant Depot",
+    "amount": -980.68,
+    "category": "Restaurant Depot",
+    "subcategory": "Food Supplies",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45838.833333333336,
+      "memo": "Restaurant Depot",
+      "merchant categ": "Food Supplies",
+      "amount": -980.68,
+      "remaining": -41442.38
+    },
+    "type": "expense",
+    "absoluteAmount": 980.68,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  },
+  {
+    "id": 1751330291789.6113,
+    "originalRowIndex": 100,
+    "date": "2025-07-01",
+    "description": "Online Order - UberEats",
+    "amount": 68.48,
+    "category": "Online Order - UberEats",
+    "subcategory": "Sales",
+    "reference": null,
+    "originalData": {
+      "transaction period": 45838.833333333336,
+      "memo": "Online Order - UberEats",
+      "merchant categ": "Sales",
+      "amount": 68.48,
+      "remaining": -41373.9
+    },
+    "type": "income",
+    "absoluteAmount": 68.48,
+    "createdAt": "2025-07-01T00:38:11.789Z"
+  }
+]
