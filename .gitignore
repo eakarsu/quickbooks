@@ -1,117 +1,70 @@
-# Dependencies
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
+gcp-key*.json
+config.local.*
+*.local
+
+# Node
 node_modules/
-.pnp/
-.pnp.js
-.yarn/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-.Python
 venv/
-ENV/
+.venv/
 env/
+.env/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Build outputs
 dist/
 build/
-out/
 .next/
+out/
 .nuxt/
-*.egg-info/
-
-# Environment files
-.env
-.env.*
-.env.local
-.env.development
-.env.test
-.env.production
-*.local
-
-# Logs
-logs/
+.vite/
+.turbo/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage & Testing
-coverage/
-.nyc_output/
-*.lcov
-.jest/
-test-results/
-playwright-report/
-
-# IDE & Editors
-.vscode/
+# OS / IDE
+.DS_Store
 .idea/
+.vscode/
+Thumbs.db
 *.swp
 *.swo
-*.swn
-*~
-.project
-.classpath
-.settings/
 
-# OS files
-.DS_Store
-.DS_Store?
-._*
-Thumbs.db
-Desktop.ini
-
-# TypeScript
-*.tsbuildinfo
-
-# Cache
-.npm/
-.eslintcache
-.cache/
-*.cache
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-*.temp
-*.bak
-*.backup
-
-# Database
+# Large data / uploads
 *.sqlite
 *.sqlite3
 *.db
-
-# Prisma
-prisma/migrations/
-
-# Certificates & Secrets
-*.pem
-*.key
-*.crt
-*.p12
-secrets/
-credentials/
-*_key.txt
-*_key.json
-*.key.txt
-*.key.json
-
-# Uploads
+data/
 uploads/
-public/uploads/
+tmp/
+.cache/
 
-# Misc
-*.gz
-*.zip
-*.tar
-*.rar
-
+# Coverage
+coverage/
+.nyc_output/
+htmlcov/
