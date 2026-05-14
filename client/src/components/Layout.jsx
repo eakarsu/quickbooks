@@ -11,6 +11,7 @@ const NAV_ITEMS = [
   { path: '/expenses', label: 'Expenses', icon: '💳' },
   { path: '/products', label: 'Products', icon: '📦' },
   { path: '/accounts', label: 'Accounts', icon: '🏦' },
+  { path: '/ai-tools', label: 'AI Tools', icon: '🤖' },
 ];
 
 export default function Layout({ children }) {

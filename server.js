@@ -22,6 +22,7 @@ const vendorRoutes = require('./routes/vendors');
 const expenseRoutes = require('./routes/expenses');
 const productRoutes = require('./routes/products');
 const accountRoutes = require('./routes/accounts');
+const aiRoutes = require('./routes/ai');
 
 // Import services and processors
 const GenericExcelUploadService = require('./services/GenericExcelUploadService');
@@ -66,6 +67,8 @@ app.use('/api/vendors', vendorRoutes);
 app.use('/api/expenses', expenseRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/accounts', accountRoutes);
+app.use('/api/ai', aiRoutes);
+app.use('/api/ai-extras', require('./routes/aiExtras'));
 
 // ==========================================
 // DASHBOARD SUMMARY ENDPOINT
@@ -304,6 +307,8 @@ app.get('{*path}', (req, res) => {
 
 // Error handler (must be last)
 app.use(errorHandler);
+
+app.use('/api', require('./routes/gap-features')); // === Batch 11 Gaps & Frontend Mounts ===
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
