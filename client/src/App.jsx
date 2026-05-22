@@ -29,6 +29,12 @@ import Expenses from './pages/Expenses';
 import Products from './pages/Products';
 import Accounts from './pages/Accounts';
 import AITools from './pages/AITools';
+import UnappliedPayments from './pages/UnappliedPayments';
+
+import CodexCustomVizFeature from './pages/CodexCustomVizFeature';
+import CodexOperationsFeature from './pages/CodexOperationsFeature';
+
+import TimelineView from './pages/TimelineView';
 
 function PrivateRoute({ children }) {
   const { user, loading } = useAuth();
@@ -40,6 +46,10 @@ export default function App() {
   return (
     <ErrorBoundary>
       <Routes>
+        <Route path="/insights/timeline" element={<TimelineView />} />
+        <Route path="/codex/custom-viz" element={<CodexCustomVizFeature />} />
+        <Route path="/codex/operations" element={<CodexOperationsFeature />} />
+
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -57,6 +67,7 @@ export default function App() {
                 <Route path="/products" element={<Products />} />
                 <Route path="/accounts" element={<Accounts />} />
                 <Route path="/ai-tools" element={<AITools />} />
+                <Route path="/unapplied-payments" element={<UnappliedPayments />} />
               </Routes>
             </Layout>
           </PrivateRoute>

@@ -69,6 +69,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/accounts', accountRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/ai-extras', require('./routes/aiExtras'));
+app.use('/api/unapplied-payments', require('./routes/unappliedPayments'));
 
 // ==========================================
 // DASHBOARD SUMMARY ENDPOINT
