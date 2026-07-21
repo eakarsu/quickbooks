@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 
@@ -57,13 +57,7 @@ export default function Login() {
             {loading ? 'Signing in...' : 'Sign In'}
           </button>
         </form>
-        <div className="auth-links">
-          <Link to="/forgot-password">Forgot password?</Link>
-          <Link to="/register">Create an account</Link>
-        </div>
-        <div className="auth-demo">
-          <p>Demo: admin / Password123!</p>
-        </div>
+        <p className="text-muted">Accounts are provisioned by an administrator. Contact operations if you need access.</p>
       </div>
     </div>
   );

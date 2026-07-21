@@ -1,21 +1,12 @@
 // Global error handler middleware
 function errorHandler(err, req, res, next) {
   console.error(`[ERROR] ${req.method} ${req.path}:`, err.message);
-  console.error(err.stack);
 
   // Determine status code
   const statusCode = err.statusCode || err.status || 500;
 
   // Build error response
-  const response = {
-    error: err.message || 'Internal Server Error',
-    status: statusCode,
-  };
-
-  // Include stack trace in development
-  if (process.env.NODE_ENV !== 'production') {
-    response.stack = err.stack;
-  }
+  const response = { error: statusCode >= 500 ? 'Internal Server Error' : (err.message || 'Request failed'), code: err.code || 'REQUEST_ERROR' };
 
   res.status(statusCode).json(response);
 }

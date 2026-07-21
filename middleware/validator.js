@@ -40,7 +40,7 @@ function sanitizeInputs(req, res, next) {
 // Password strength validation
 function validatePasswordStrength(password) {
   const errors = [];
-  if (password.length < 8) errors.push('Password must be at least 8 characters');
+  if (password.length < 14) errors.push('Password must be at least 14 characters');
   if (!/[A-Z]/.test(password)) errors.push('Password must contain an uppercase letter');
   if (!/[a-z]/.test(password)) errors.push('Password must contain a lowercase letter');
   if (!/[0-9]/.test(password)) errors.push('Password must contain a number');
@@ -49,14 +49,6 @@ function validatePasswordStrength(password) {
 }
 
 // Common validation chains
-const registerValidation = [
-  body('username').isLength({ min: 3, max: 30 }).withMessage('Username must be 3-30 characters'),
-  body('email').isEmail().normalizeEmail().withMessage('Valid email required'),
-  body('password').isLength({ min: 8 }).withMessage('Password must be at least 8 characters'),
-  body('first_name').optional().isLength({ max: 50 }),
-  body('last_name').optional().isLength({ max: 50 }),
-];
-
 const loginValidation = [
   body('username').notEmpty().withMessage('Username is required'),
   body('password').notEmpty().withMessage('Password is required'),
@@ -75,7 +67,6 @@ module.exports = {
   sanitizeInputs,
   sanitizeString,
   validatePasswordStrength,
-  registerValidation,
   loginValidation,
   paginationValidation,
   body, query, param,

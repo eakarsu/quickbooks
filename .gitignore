@@ -63,6 +63,8 @@ data/
 uploads/
 tmp/
 .cache/
+backups/
+*.backup
 
 # Coverage
 coverage/
@@ -77,6 +79,7 @@ htmlcov/
 *.key
 **/credentials*.json
 **/serviceAccount*.json
+!.env.example
 
 # --- secrets: never commit ---
 .env
@@ -91,3 +94,4 @@ token.txt
 id_rsa*
 **/credentials*.json
 **/serviceAccount*.json
+!.env.example

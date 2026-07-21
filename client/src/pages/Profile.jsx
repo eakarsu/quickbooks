@@ -35,7 +35,7 @@ export default function Profile() {
     e.preventDefault();
     const errs = {};
     if (!pwdForm.current_password) errs.current_password = 'Required';
-    if (pwdForm.new_password.length < 8) errs.new_password = 'At least 8 characters';
+    if (pwdForm.new_password.length < 14) errs.new_password = 'At least 14 characters';
     if (pwdForm.new_password !== pwdForm.confirm_password) errs.confirm_password = 'Passwords do not match';
     setErrors(errs);
     if (Object.keys(errs).length > 0) return;

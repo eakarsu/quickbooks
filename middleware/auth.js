@@ -1,65 +1,58 @@
+const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
-const sqlite3 = require('sqlite3').verbose();
-const path = require('path');
+const { get, openDatabase } = require('../lib/database');
+const { validateOperationalSecret } = require('../lib/security');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'quickbooks-secret-key-change-in-production';
-const JWT_EXPIRES = '24h';
+const JWT_EXPIRES = '8h';
+
+function getJwtSecret() {
+  try {
+    return validateOperationalSecret(process.env.JWT_SECRET, 'JWT_SECRET');
+  } catch (error) {
+    error.code = 'CONFIG_INVALID';
+    throw error;
+  }
+}
 
 function getDb() {
-  return new sqlite3.Database(path.join(__dirname, '..', 'data', 'cashflow.db'));
+  return openDatabase();
+}
+
+function hashToken(token) {
+  return crypto.createHash('sha256').update(token).digest('hex');
 }
 
 function generateToken(user) {
-  return jwt.sign(
-    { id: user.id, username: user.username, email: user.email, role: user.role },
-    JWT_SECRET,
-    { expiresIn: JWT_EXPIRES }
-  );
+  return jwt.sign({ id: user.id, role: user.role, authVersion: user.auth_version }, getJwtSecret(), { expiresIn: JWT_EXPIRES, audience: 'quickbooks-api', issuer: 'quickbooks-governed-ledger' });
 }
 
-function authenticateToken(req, res, next) {
-  const authHeader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')[1];
-
-  if (!token) {
-    return res.status(401).json({ error: 'Access token required' });
+async function authenticateToken(req, res, next) {
+  const authorization = req.get('authorization') || '';
+  if (!authorization.startsWith('Bearer ')) return res.status(401).json({ error: 'Access token required', code: 'AUTH_REQUIRED' });
+  const token = authorization.slice(7);
+  let claims;
+  try {
+    claims = jwt.verify(token, getJwtSecret(), { audience: 'quickbooks-api', issuer: 'quickbooks-governed-ledger' });
+  } catch {
+    return res.status(401).json({ error: 'Invalid or expired token', code: 'AUTH_INVALID' });
   }
 
   const db = getDb();
-  // Check if token is in active sessions
-  db.get('SELECT * FROM sessions WHERE token = ? AND expires_at > datetime("now")', [token], (err, session) => {
-    if (err) {
+  try {
+    const session = await get(db, `SELECT s.expires_at, u.id, u.username, u.email, u.role, u.active, u.auth_version
+      FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ?`, [hashToken(token)]);
+    if (!session || !session.active || Date.parse(session.expires_at) <= Date.now() || session.id !== claims.id || session.auth_version !== claims.authVersion) {
       db.close();
-      return res.status(500).json({ error: 'Database error' });
+      return res.status(401).json({ error: 'Session is no longer active', code: 'SESSION_REVOKED' });
     }
-    if (!session) {
-      db.close();
-      return res.status(401).json({ error: 'Invalid or expired token' });
-    }
-
-    jwt.verify(token, JWT_SECRET, (err, user) => {
-      db.close();
-      if (err) return res.status(403).json({ error: 'Invalid token' });
-      req.user = user;
-      next();
-    });
-  });
-}
-
-// Lighter auth - just verify JWT without session check (for less critical routes)
-function authenticateTokenLight(req, res, next) {
-  const authHeader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')[1];
-
-  if (!token) {
-    return res.status(401).json({ error: 'Access token required' });
-  }
-
-  jwt.verify(token, JWT_SECRET, (err, user) => {
-    if (err) return res.status(403).json({ error: 'Invalid token' });
-    req.user = user;
+    db.close();
+    req.user = { id: session.id, username: session.username, email: session.email, role: session.role, authVersion: session.auth_version };
+    req.authTokenHash = hashToken(token);
     next();
-  });
+  } catch (error) {
+    db.close();
+    next(error);
+  }
 }
 
-module.exports = { authenticateToken, authenticateTokenLight, generateToken, getDb, JWT_SECRET };
+module.exports = { authenticateToken, generateToken, getDb, getJwtSecret, hashToken };

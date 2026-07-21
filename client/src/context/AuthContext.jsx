@@ -9,11 +9,18 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    const savedUser = localStorage.getItem('user');
-    if (token && savedUser) {
-      setUser(JSON.parse(savedUser));
+    if (!token) {
+      setLoading(false);
+      return;
     }
-    setLoading(false);
+    api.get('/auth/profile').then((result) => {
+      setUser(result.data);
+      localStorage.setItem('user', JSON.stringify(result.data));
+    }).catch(() => {
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      setUser(null);
+    }).finally(() => setLoading(false));
   }, []);
 
   const login = async (username, password) => {
@@ -21,11 +28,6 @@ export function AuthProvider({ children }) {
     localStorage.setItem('token', data.token);
     localStorage.setItem('user', JSON.stringify(data.user));
     setUser(data.user);
-    return data;
-  };
-
-  const register = async (userData) => {
-    const data = await api.post('/auth/register', userData);
     return data;
   };
 
@@ -48,16 +50,8 @@ export function AuthProvider({ children }) {
     return await api.post('/auth/change-password', { current_password, new_password });
   };
 
-  const forgotPassword = async (email) => {
-    return await api.post('/auth/forgot-password', { email });
-  };
-
-  const resetPassword = async (token, new_password) => {
-    return await api.post('/auth/reset-password', { token, new_password });
-  };
-
   return (
-    <AuthContext.Provider value={{ user, loading, login, register, logout, updateProfile, changePassword, forgotPassword, resetPassword }}>
+    <AuthContext.Provider value={{ user, loading, login, logout, updateProfile, changePassword }}>
       {children}
     </AuthContext.Provider>
   );

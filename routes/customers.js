@@ -3,13 +3,12 @@ const { authenticateToken } = require('../middleware/auth');
 const { authorize } = require('../middleware/rbac');
 const { sanitizeInputs, validate, paginationValidation } = require('../middleware/validator');
 const { bulkLimiter } = require('../middleware/rateLimiter');
-const sqlite3 = require('sqlite3').verbose();
-const path = require('path');
+const { openDatabase } = require('../lib/database');
 const PDFDocument = require('pdfkit');
 
 const router = express.Router();
 
-function getDb() { return new sqlite3.Database(path.join(__dirname, '..', 'data', 'cashflow.db')); }
+function getDb() { return openDatabase(); }
 function dbAll(db, sql, p = []) { return new Promise((res, rej) => { db.all(sql, p, (e, r) => e ? rej(e) : res(r)); }); }
 function dbGet(db, sql, p = []) { return new Promise((res, rej) => { db.get(sql, p, (e, r) => e ? rej(e) : res(r)); }); }
 function dbRun(db, sql, p = []) { return new Promise((res, rej) => { db.run(sql, p, function(e) { e ? rej(e) : res(this); }); }); }

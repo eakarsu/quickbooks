@@ -11,8 +11,7 @@ const NAV_ITEMS = [
   { path: '/expenses', label: 'Expenses', icon: '💳' },
   { path: '/products', label: 'Products', icon: '📦' },
   { path: '/accounts', label: 'Accounts', icon: '🏦' },
-  { path: '/unapplied-payments', label: 'Unapplied Payments', icon: '🧾' },
-  { path: '/ai-tools', label: 'AI Tools', icon: '🤖' },
+  { path: '/broker-operations', label: 'Paper Broker Controls', icon: '🛡️' },
 ];
 
 export default function Layout({ children }) {

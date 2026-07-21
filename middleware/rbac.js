@@ -1,8 +1,8 @@
 // Role-based access control middleware
 const PERMISSIONS = {
-  admin: ['read', 'write', 'delete', 'manage_users', 'manage_settings', 'export', 'bulk_operations'],
-  manager: ['read', 'write', 'delete', 'export', 'bulk_operations'],
-  user: ['read', 'write', 'export'],
+  admin: ['read', 'write', 'delete', 'manage_users', 'manage_settings', 'export', 'bulk_operations', 'paper_trade', 'approve_orders', 'correct_ledger', 'manage_broker'],
+  manager: ['read', 'write', 'delete', 'export', 'bulk_operations', 'paper_trade', 'approve_orders', 'correct_ledger'],
+  user: ['read', 'write', 'export', 'paper_trade'],
   viewer: ['read'],
 };
 
