@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
@@ -8,7 +9,7 @@ require('dotenv').config();
 const { authenticateToken, getDb, getJwtSecret } = require('./middleware/auth');
 const { apiLimiter } = require('./middleware/rateLimiter');
 const { errorHandler, notFoundHandler } = require('./middleware/errorHandler');
-const { all, get, migrate } = require('./lib/database');
+const { all, get, migrate, run } = require('./lib/database');
 const { validateOperationalSecret } = require('./lib/security');
 
 function allowedOrigins() {
@@ -89,6 +90,39 @@ function createApp() {
   app.use('/api/products', require('./routes/products'));
   app.use('/api/accounts', require('./routes/accounts'));
 
+  app.post('/api/runtime-ai/ledger-readiness', authenticateToken, async (req, res, next) => {
+    const prompt = String(req.body?.prompt || req.body?.query || '').trim();
+    if (!prompt || prompt.length > 8000) return res.status(400).json({ error: 'Prompt must contain 1-8000 characters' });
+    const apiKey = process.env.OPENROUTER_API_KEY;
+    const model = process.env.OPENROUTER_MODEL;
+    const baseUrl = process.env.OPENROUTER_BASE_URL;
+    if (!apiKey || !model || baseUrl !== 'https://openrouter.ai/api/v1') return res.status(503).json({ error: 'Canonical OpenRouter configuration is required' });
+    try {
+      const provider = await fetch(`${baseUrl}/chat/completions`, {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model, temperature: 0.2, messages: [
+          { role: 'system', content: 'Review a governed accounting ledger workflow. Return concise financial-control risks, evidence gaps, next actions, uncertainty, and decisions requiring qualified human accounting approval.' },
+          { role: 'user', content: prompt },
+        ] }),
+        signal: AbortSignal.timeout(60_000),
+      });
+      if (!provider.ok) return res.status(502).json({ error: `OpenRouter returned ${provider.status}` });
+      const payload = await provider.json();
+      const content = String(payload?.choices?.[0]?.message?.content || '').trim();
+      const receipt = String(payload?.id || provider.headers.get('x-request-id') || '').trim();
+      if (!content || !receipt) return res.status(502).json({ error: 'OpenRouter returned an incomplete response' });
+      const id = crypto.randomUUID();
+      const db = getDb();
+      try {
+        await run(db, `INSERT INTO runtime_ai_results
+          (id,user_id,feature,prompt,content,provider,model,provider_response_id)
+          VALUES(?,?,'ledger-readiness',?,?,'openrouter',?,?)`, [id, req.user.id, prompt, content, model, receipt]);
+      } finally { db.close(); }
+      return res.json({ id, content, provider: 'openrouter', model, providerReceipt: { id: receipt } });
+    } catch (error) { return next(error); }
+  });
+
   app.get('/api/dashboard', authenticateToken, async (_req, res, next) => {
     const db = getDb();
     try {
@@ -131,7 +165,7 @@ async function start() {
   if (status.pending.length) throw new Error(`Pending migrations: ${status.pending.join(', ')}`);
   const port = Number(process.env.PORT || 5010);
   if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error('PORT is invalid');
-  const server = createApp().listen(port, '0.0.0.0', () => console.log(`Governed ledger listening on ${port}`));
+  const server = createApp().listen(port, '127.0.0.1', () => console.log(`Governed ledger listening on ${port}`));
   const shutdown = () => server.close(() => process.exit(0));
   process.on('SIGTERM', shutdown);
   process.on('SIGINT', shutdown);

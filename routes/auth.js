@@ -40,6 +40,10 @@ router.post('/logout', authenticateToken, async (req, res, next) => {
   }
 });
 
+router.get('/me', authenticateToken, (req, res) => {
+  return res.json({ user: req.user });
+});
+
 router.get('/profile', authenticateToken, async (req, res, next) => {
   const db = getDb();
   try {

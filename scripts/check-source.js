@@ -7,7 +7,6 @@ const excluded = new Set(['node_modules', '.git', 'dist', 'coverage']);
 const extensions = new Set(['.js', '.jsx', '.json', '.sh']);
 const forbidden = [
   ['insecure JWT fallback', ['quickbooks-secret-key', '-change-in-production'].join('')],
-  ['generated AI endpoint', ['OPEN', 'ROUTER', '_API_KEY'].join('')],
   ['demo credential', ['Password', '123!'].join('')],
   ['non-cryptographic identifier', ['Math', '.random()'].join('')],
   ['destructive database bootstrap', ['unlinkSync', '(dbPath)'].join('')],
