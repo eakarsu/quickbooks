@@ -109,7 +109,7 @@ done
 cd "$project_dir"
 npm run migrate
 npm run provision:admin
-[[ -f client/dist/index.html ]] || npm run build
+npm run build
 api_pid=''; proxy_pid=''
 cleanup() {
   trap - INT TERM EXIT
